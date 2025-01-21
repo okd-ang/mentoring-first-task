@@ -15,7 +15,7 @@ const menuItems = [
   'Электрика',
   'Интерьер и одежда',
 ];
-const upperCaseMenuItems: string[] = menuItems.map((item: string) => {
+const upperCaseMenuItems: string[] = menuItems.map((item: string): string => {
   return item.toUpperCase();
 });
 
